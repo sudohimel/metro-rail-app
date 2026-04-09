@@ -1,5 +1,16 @@
 # Metro Rail App - Backend API
 
+<div align="center">
+
+[![NestJS](https://img.shields.io/badge/NestJS-v10.0.0-ea2845?style=flat-square&logo=nestjs&logoColor=white)](https://nestjs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v5.x-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-v18+-68a063?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-v5.7+-4479a1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/License-UNLICENSED-red?style=flat-square)](./LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=flat-square)](https://github.com/sudohimel/metro-rail-app)
+
+</div>
+
 A sophisticated, scalable **NestJS-based backend API** for a comprehensive metro rail/transportation management system. Built with enterprise-grade architecture, the Metro Rail App handles user authentication, journey tracking, location management, and administrator functions for modern urban transit systems.
 
 ## 🚀 Overview
@@ -308,7 +319,7 @@ yarn lint --fix
 - `PUT /admin/location/:id` - Update location
 - `DELETE /admin/location/:id` - Delete location
 
-See **API_DOCUMENTATION.md** for detailed request/response examples.
+See [**docs/API_DOCUMENTATION.md**](./docs/API_DOCUMENTATION.md) for detailed request/response examples.
 
 ## 🏗️ Architecture Overview
 
@@ -337,15 +348,15 @@ The application follows **NestJS modular architecture** with clear separation of
 - HTTP status codes properly utilized
 - Meaningful error messages for debugging
 
-See **ARCHITECTURE.md** for in-depth technical details.
+See [**docs/ARCHITECTURE.md**](./docs/ARCHITECTURE.md) for in-depth technical details.
 
 ## 📚 Documentation
 
-- **ARCHITECTURE.md** - System design, data models, and technical decisions
-- **API_DOCUMENTATION.md** - Complete endpoint reference with examples
-- **DEPLOYMENT_GUIDE.md** - Production deployment instructions
-- **[TypeORM Docs](https://typeorm.io/)** - Database ORM documentation
-- **[NestJS Docs](https://docs.nestjs.com/)** - Framework documentation
+- [**ARCHITECTURE.md**](./docs/ARCHITECTURE.md) - System design, data models, and technical decisions
+- [**API_DOCUMENTATION.md**](./docs/API_DOCUMENTATION.md) - Complete endpoint reference with examples
+- [**DEPLOYMENT_GUIDE.md**](./docs/DEPLOYMENT_GUIDE.md) - Production deployment instructions
+- [**TypeORM Docs**](https://typeorm.io/) - Database ORM documentation
+- [**NestJS Docs**](https://docs.nestjs.com/) - Framework documentation
 
 ## 🔐 Security Considerations
 
